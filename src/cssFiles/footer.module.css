@@ -1,0 +1,46 @@
+footer{
+    border-top:1px solid rgb(130, 159, 185);
+    padding: 20px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    background-color: rgb(165, 140, 76);
+
+}
+.footerCardOne {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.footerCardOne img{
+    width: 100%;
+    border-radius: 50%;
+}
+.footerCardTwo{
+    text-align: center;
+}
+
+footer ul li:first-child{
+    font-size:1.5rem;
+    font-weight: 700;
+}
+
+
+footer ul li{
+    list-style-type:none ;
+    font-size:18px;
+    letter-spacing:2px;
+    text-align: start;
+}
+.getStarted{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(10, 213, 249);
+    color: black;
+    margin: 10px 0px;
+    border-radius: 50px;
+
+}

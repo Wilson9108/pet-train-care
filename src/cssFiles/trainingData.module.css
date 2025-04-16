@@ -1,0 +1,201 @@
+.mainTableContainer{
+    /* background:url("https://i.pinimg.com/1200x/84/a9/6b/84a96bdfd29f7e4b0486c8815c7bff17.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white; */
+    height: 95vh;
+
+
+}
+ .loading{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ }
+ 
+.tableHeading{
+    text-align: center;
+    /* margin: 50px 0px; */
+    padding: 20px;;
+    color: rgb(127, 84, 84);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: transparent;
+    text-shadow: 2px 2px 2px rgb(211, 187, 187);
+    background:linear-gradient(to right,black,blue,gold);
+    background-clip: text;
+    
+}
+.searchItemBox{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    
+}
+.searchItemBox input[type="search"]::-webkit-search-cancel-button{
+
+    background-color: white;
+    font-size: 2rem;
+    filter: invert(1);
+
+}
+.searchItemBox input{
+    padding: 15px 50px;
+    margin: 10px 1px;
+    width: 40%;
+    border-radius: 8px;
+    outline:none;
+    background-color: rgb(74, 48, 48);
+    color: white;
+    box-shadow: 0px 2px 2px rgba(150, 126, 126, 0.742);
+    border:2px solid rgb(182, 147, 147);
+    
+}
+.searchItemBox input:focus{
+    outline:4px solid rgb(156, 148, 185)
+}
+.searchItemBox input::placeholder{
+    color: white;
+}
+.searchItemBox i{
+    position: absolute;
+    left: 31%;
+    top: 35%;
+    font-size: 1.2rem;
+    color: rgb(141, 111, 111);
+}
+
+.tableContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.tableContainer table{
+    border:2px solid rgb(103, 103, 107);
+    box-shadow: 0px 10px 5px rgba(6, 4, 4, 0.104);
+
+}
+
+.tableContainer table tr th{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border:2px solid rgb(110, 101, 101);
+    text-align: center;
+    padding: 35px 22px;
+    background-color: rgba(86, 56, 56, 0.739);
+    color:rgb(255, 255, 255);
+    text-wrap:nowrap;
+    box-shadow: 0px 0px 35px rgba(153, 195, 38, 0.409);
+}
+.tableContainer table tr  td{
+    border:2px solid rgb(145, 145, 148);
+    padding:20px 10px;
+    text-wrap: nowrap;
+    box-shadow: 0px 0px 30px black;
+    background-color: rgba(251, 246, 246, 0.765);
+    text-transform:capitalize;
+    text-align: center;
+    color:black;
+
+}
+
+
+td:hover{
+    background-color: rgba(5, 6, 7, 0.5);
+
+}
+
+.acceptBtn{
+    text-align: center;
+
+}
+
+.acceptBtn a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    background-color: green;
+    padding: 5px 8px;
+    display: inline-block;
+}
+.notAcceptedBtn{
+    text-align: center;
+}
+.notAcceptedBtn a{
+    text-decoration: none;
+    color: rgb(11, 4, 4);
+    background-color: rgba(13, 211, 211, 0.788);
+    padding: 5px 8px;
+}
+.rejectBtn{
+    text-align: center;
+}
+.rejectBtn a{
+    text-decoration: none;
+    color:black;
+    background-color: red;
+    padding: 5px 8px;
+    color:white;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+.rejectedBtn a{
+    text-decoration: none;
+    background-color: rgba(179, 34, 34, 0.751);
+    color: black;
+    padding: 10px;
+}
+.EmptyRejectBtn{
+    background-color: rgba(138, 124, 124, 0.397);
+}
+.EmptyRejectBtn a{
+    text-decoration: none;
+}
+.acceptBtn a:hover{
+    transform: scale(1.1);
+}
+.acceptBtn a:active{
+    transform: scale(1);
+}
+.rejectBtn a:hover{
+    transform:scale(1.1)
+}
+.rejectBtn a :active{
+    transform:scale(1);
+}
+.paginationContainer{
+    margin: 10px 0px;
+}
+.paginationindexes{
+    border:none;
+     margin: 0px 2px;
+     padding: 5px 15px;
+     border-radius: 50%;
+}
+.previousBtnContainer button , .forwardBtnContainer button{
+    padding: 5px 10px;
+    margin:0px 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(117, 250, 0);
+    cursor: pointer;
+}
+.previousBtnContainer button:hover,.forwardBtnContainer button:hover{
+    transform: scale(1.1);
+    background-color: gold;
+}
+.previousBtnContainer button:active,.forwardBtnContainer button:active{
+    transform: scale(1);
+    background-color: gold;
+}
+.previousBtnContainer button:disabled{
+    background-color: rgba(87, 123, 55, 0.509);
+    transform: scale(1);
+}
+.previousBtnContainer button i,.forwardBtnContainer button i {
+    color: white;
+}

@@ -1,0 +1,236 @@
+.mainContainer{
+    margin:0px 20px;
+}
+
+header{
+    height: 95vh;
+    /* background:url("https://i.pinimg.com/1200x/b0/a9/67/b0a967830ce49ecf0c9e4a1c23033db8.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover; */
+    position:relative;
+    /* border-radius: 0px 0px  20% 0%; */
+}
+.myVideo{
+    width: 100vw;
+    height: 100vh;
+}
+.headerContent{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    width: 550px;
+    text-transform:capitalize;
+}
+.headerContent h1{
+    color: white;
+    font-size:5rem;
+    letter-spacing: 5px;
+}
+.headerContent p{
+    color: white;
+    letter-spacing: 2px;
+}
+.viewMoreBtn{
+    display: inline-block;
+    margin: 20px 0px;
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color: rgb(38, 38, 95);
+    color: white;
+}
+/* ------------------------------------------ */
+.petIconsCon{
+    padding: 30px;
+    margin: 50px;
+
+}
+.petIconsBox{
+    display: flex;
+    justify-content: space-between;
+    font-size:3rem;
+}
+
+
+
+
+/* ---------------------------------------------------------- */
+
+.cardAndImgCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.imgCon{
+    padding: 20px;
+    width: 30%;
+}
+.imgCon img{
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.433);
+}
+.imgCon img:hover{
+    transform: scale(1.06);
+}
+.cardCon{
+    padding: 20px;
+    width: 40%;
+}
+.cardCon h1{
+    color: orange;
+    text-transform: capitalize;
+}
+.cardCon p{
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+/* --------------------------------------------------- */
+.ourServiceCon{
+    text-align:center;
+    margin:50px 0px;
+    /* background-color: rgba(68, 175, 54, 0.425); */
+}
+.ourServiceCon .serviceHeading h1{
+    margin:0px 0px;
+    padding: 10px 0px;
+    color: orange;
+    letter-spacing: 1px;
+}
+.ourServiceCon .serviceHeading p{
+    margin:0px 0px;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+}
+.ourServiceBox{
+    padding: 20px 0px;
+    margin:50px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    gap:50px;
+}
+.imgBox{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    /* width: 300px; */
+}
+.ourServiceBox .trainingImg ,.daysCareImg ,.groomingImg {
+    width: 250px;
+    height: 250px;
+    font-size: 2rem;
+    background-color: aliceblue;
+    margin:10px;
+    transition: all 0.5s ease-in-out;
+    cursor:pointer;
+}
+
+.groomingImg:hover,.trainingImg:hover,.daysCareImg:hover{
+    transform: scale(1.05);
+}
+.ourServiceBox h3{
+    margin: 10px 0px;
+    font-size:18px;
+}
+.ourServiceBox a{
+    display: inline-block;
+    padding: 10px 30px ;
+    background-color: rgba(0, 146, 251, 0.798);
+    text-decoration: none;
+    color: white;
+}
+.ourServiceBox a:hover{
+    background-color: blueviolet;
+}
+
+
+/* -------------------------------------------------------------- */
+
+.cardTwoAndImgCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+.imgConTwo{
+    width: 30%;
+}
+.imgConTwo img{
+    width: 100%;
+}
+.cardConTwo{
+    padding: 20px;
+    width: 40%;
+}
+.cardConTwo h3{
+    color: rgba(197, 143, 42, 0.615);
+    text-transform: capitalize;
+}
+.cardConTwo h2{
+    text-transform:capitalize;
+    color: rgb(190, 132, 24);
+}
+.cardConTwo p{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+/* ------------------------------------------ */
+
+.cardThreeAndImgCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.cardConThree{
+    width: 40%;
+}
+.cardConThree h2{
+    text-transform: capitalize;
+    color: orange;
+}
+.cardConThree p{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.imgConThreeOne{
+    width: 25%;
+    /* box-shadow: 0px 5px 20px rgb(129, 83, 83); */
+}
+.imgConThreeOne img{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.imgConThreeTwo{
+    margin: 0px 20px;
+    width: 30%;
+    height: 500px;
+    cursor: pointer;
+    /* box-shadow: 0px 5px 20px rgb(129, 83, 83); */
+}
+
+
+.imgConThreeTwo img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.imgConThreeOne img:hover{
+    transform: scale(1.05);
+}
+.imgConThreeTwo img:hover{
+    transform: scale(1.05);
+}
