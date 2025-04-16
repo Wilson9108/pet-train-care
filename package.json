@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -27,6 +28,8 @@
     "vite": "^6.2.0"
   }
 =======
+=======
+>>>>>>> add86768e761a74d34d32ce7cf4d7fb72a6ca098
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
@@ -49,5 +52,8 @@
   "author": "",
   "license": "ISC",
   "description": ""
+<<<<<<< HEAD
+>>>>>>> add86768e761a74d34d32ce7cf4d7fb72a6ca098
+=======
 >>>>>>> add86768e761a74d34d32ce7cf4d7fb72a6ca098
 }
