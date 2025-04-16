@@ -1,0 +1,166 @@
+.formContainer{
+    /* padding:50px 0px 0px 0px; */
+    height: 100vh;
+    
+}
+
+.formHeader{
+    /* text-align: center; */
+    margin: 0px 0px 40px 0px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    /* width: 380px; */
+    text-shadow: 1px 5px 5px rgb(143, 107, 107);
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 19px;
+    text-decoration-style:dotted;
+    text-decoration-color: rgb(78, 122, 70);
+}
+.formBox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:20px 0px; */
+}
+.formMin{
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgba(0, 0, 0, 0.532);
+    /* background-color: rgba(255, 4, 146, 0.075); */
+    /* background-color: rgba(0, 255, 17, 0.088); */
+    padding: 50px;
+    position: relative;
+    box-shadow: 0px 0px 15px rgb(94, 113, 147);
+    border-radius: 0px 15px;
+    backdrop-filter: blur(2px);
+    
+}
+
+.inputgroup{
+    width: 380px;
+    margin: 10px 0px;
+    /* position: relative; */
+}
+
+  .inputgroup input,.input{
+    width: 100%;
+    padding:12px 8px;
+    outline: none;
+    border-radius:8px;
+    border:1px solid rgb(212, 217, 221);
+    transition: border-radius 0.5s  ease;
+}
+.inputgroup :focus{
+    border-radius: 50px;
+
+}
+.gender{
+    width: 100%;
+    padding:10px 5px;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid rgb(212, 217, 221)
+}
+.trainingType{
+    width: 100%;
+    padding:10px 5px;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid rgb(212, 217, 221)
+}
+.description{
+    width: 100%;
+    padding: 10px 5px ;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid rgb(2122,217,221);
+}
+.errorMessage{
+    color: rgb(255, 0, 0);
+    /* font-weight: 900; */
+    margin:2px 5px;
+    display: block;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.signupLink{
+    /* font-size:20px; */
+    margin:0px 0px 0px 2px;
+    display: inline-block;
+    color: rgb(44, 44, 190);
+    font-weight: 600;
+    text-shadow: 1px 0px 1px rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-underline-offset: 3px;
+    text-decoration-color:rgb(166, 255, 0);
+}
+.signupLink:hover{
+    transform: scale(1.1);
+    /* color: rgb(121, 121, 147); */
+}
+
+.buttongroup{
+    text-align: center;
+    margin:20px 0px 0px 0px;
+    position:absolute;
+    right: 20px;
+}
+.submitBtn{
+    background-color: rgb(72, 72, 208);
+    color: white;
+    outline: none;
+    border:2px solid rgb(203, 198, 215);
+    padding: 10px 40px;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    /* width: 100%; */
+    text-transform: uppercase;
+}
+.submitBtn:hover{
+    transform: scale(1.1);
+}
+.submitBtn:active{
+    transform: scale(1);
+}
+
+/* ------------------------ */
+.setImageInSignin{
+    background: url("../Images/userSigninImage.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.setImageToUserSignup{
+    background-image: url("../Images/userSignupImage.jpg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.setImageTotrainingRequest{
+    background-image: url("../Images/trainingRequestImage.jpg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.setImageToAdmin{
+    background:linear-gradient(rgba(0, 0, 0, 0.643),rgba(0, 0, 255, 0)), url("../Images/adminSigninImage.webp");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.setImageToAdminSignup{
+    background:linear-gradient(rgba(0, 0, 0, 0.643),rgba(0, 0, 255, 0)), url("../Images/adminSignupImage.jpg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}

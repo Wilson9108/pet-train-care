@@ -1,0 +1,8 @@
+nav{
+    background-color: rgb(165, 140, 76);
+    /* margin:0px 0px 20px 0px; */
+    text-transform: capitalize;
+}
+.nav-item a{
+    color:white;
+}
