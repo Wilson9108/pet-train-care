@@ -1,0 +1,25 @@
+
+const {connectMongo} = require("./dbConnection")
+connectMongo("mongodb://127.0.0.1:27017/pet-train-adop")
+const {userRouter} = require("./routers/user")
+const { adminRouter } = require("./routers/admin")
+const {trainingRouter} = require("./routers/training")
+const {trainingAmountRouter} = require('./routers/trainingamount')
+const {petDaysCareRouter} = require('./routers/petdayscare')
+const {petDaysCareAmountRouter}=require('./routers/petdayscareamount')
+const express= require("express")
+const app = express()
+const cors = require("cors")
+
+app.use(cors())
+app.use(express.json())
+app.use('/user',userRouter)
+app.use('/admin',adminRouter)
+app.use('/training',trainingRouter)
+app.use('/trainingamount',trainingAmountRouter)
+app.use('/petdayscare',petDaysCareRouter)
+app.use('/petdayscareamount',petDaysCareAmountRouter)
+
+app.listen("5504",()=>{
+    console.log("your port is running on 5504")
+})
